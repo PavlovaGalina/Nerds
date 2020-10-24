@@ -1,0 +1,158 @@
+/* Variables */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #EEEEEE;
+  --red: #FB565A;
+  --green: #00CA74;
+  --yellow: #EFC849;
+}
+
+/* Global */
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.page a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header */
+
+.main-header {
+  background-color: var(--grey);
+  padding: 0;
+}
+
+.container {
+  max-width: 1160px;
+  padding: 0px 40px;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: transparent;
+  padding-top: 49px;
+}
+
+.main-navigation a {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.main-navigation-logo {
+  max-height: 65px;
+}
+
+.main-navigation-logo img {
+  width: 160px;
+  height: 65px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  margin-right: 85px;
+  padding: 0;
+  padding-bottom: 9px;
+}
+
+.site-navigation li {
+  margin-right: 45px;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+
+.cart {
+  padding-bottom: 9px;
+}
+
+/* Main */
+
+.main-container h2 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.main-container p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.features-section-wrapper {
+  background-color: var(--grey);
+  padding: 0;
+}
+
+.features-section {
+  display: flex;
+}
+
+.features-description {
+  max-width: 400px;
+  padding-top: 78px;
+}
+
+.learn-more-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--red);
+  padding: 17px 54px;
+  padding-bottom: 15px;
+  border: none;
+}
+
+.features-section img {
+  width: 760px;
+  height: 431px;
+}
